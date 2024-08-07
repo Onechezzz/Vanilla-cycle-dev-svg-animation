@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 30px;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+a {
+  padding: 12px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #DB6B86;
+  border: 2px solid #DB6B86;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  background-color: #EFDFED;
+}
+a:hover {
+  background-color: #DB6B86;
+  color: #fff;
+}
+
+svg {
+  width: 50%;
+}
+svg .flow-mid {
+  opacity: 0.6;
+  fill: url(#SVGID_1_);
+}
+svg .flow-design {
+  fill: #72224B;
+}
+svg .flow-design-inner {
+  fill: url(#SVGID_2_);
+}
+svg .st3 {
+  fill: #FFFFFF;
+}
+svg .st4 {
+  font-family: "Poppins-Medium";
+}
+svg .st5 {
+  font-size: 34.6043px;
+}
+svg .st6 {
+  letter-spacing: 1;
+}
+svg .st7 {
+  font-family: "Poppins-Black";
+}
+svg .st8 {
+  font-size: 31.2852px;
+}
+svg .st9 {
+  fill: url(#SVGID_3_);
+}
+svg .st10 {
+  opacity: 0.7;
+  clip-path: url(#SVGID_5_);
+  fill: #592668;
+}
+svg .st11 {
+  fill: #9D2158;
+}
+svg .st12 {
+  fill: #6D2463;
+}
+svg .st13 {
+  fill: #7F235F;
+}
+svg .st14 {
+  fill: #612566;
+}
+svg .st15 {
+  fill: #162838;
+}
+svg .st16 {
+  fill: url(#SVGID_6_);
+}
+svg .st17 {
+  fill: #952052;
+}
+svg .st18 {
+  fill: url(#SVGID_7_);
+}
+svg .st19 {
+  opacity: 0.6;
+  fill: #E2E2E2;
+}
+svg .st20 {
+  fill: none;
+}
+svg .st21 {
+  fill: #BB1E5A;
+}
+svg .st22 {
+  fill: url(#SVGID_8_);
+}
+svg .st23 {
+  fill: #652565;
+}
+svg .st24 {
+  opacity: 0.46;
+  fill: #652565;
+}
+svg .st25 {
+  fill: url(#SVGID_9_);
+}
+svg .st26 {
+  fill: url(#SVGID_10_);
+}
+svg .st27 {
+  fill: url(#SVGID_11_);
+}
+svg .st28 {
+  fill: #A42056;
+}
+svg .st29 {
+  fill: url(#SVGID_12_);
+}
+svg .st30 {
+  fill: url(#SVGID_13_);
+}
+svg .st31 {
+  fill: #ECECF0;
+}
+svg .st32 {
+  fill: url(#SVGID_14_);
+}
+svg .st33 {
+  fill: #462542;
+}
+svg .st34 {
+  opacity: 0.38;
+  fill: #572668;
+}
+svg .st35 {
+  fill: url(#SVGID_15_);
+}
+svg .st36 {
+  fill: #7E235F;
+}
+svg .st37 {
+  fill: url(#SVGID_16_);
+}
+svg .st38 {
+  fill: url(#SVGID_17_);
+}
+svg .st39 {
+  fill: url(#SVGID_18_);
+}
+svg .st40 {
+  fill: #DA5378;
+}
+svg .st41 {
+  fill: #F4999D;
+}
+svg .st42 {
+  fill: url(#SVGID_19_);
+}
+svg .st43 {
+  fill: #DD3428;
+}
+svg .st44 {
+  fill: url(#SVGID_20_);
+}
+svg .st45 {
+  fill: url(#SVGID_21_);
+}
+svg .st46 {
+  fill: url(#SVGID_22_);
+}
+svg .st47 {
+  fill: url(#SVGID_23_);
+}
+svg .st48 {
+  fill: #D1D3D4;
+}
+svg .st49 {
+  fill: #727C83;
+}
+svg .st50 {
+  fill: url(#SVGID_24_);
+}
+svg .st51 {
+  opacity: 0.15;
+}
+svg .st52 {
+  fill: url(#SVGID_25_);
+}
+svg .st53 {
+  fill: #E47B8E;
+}
+svg .st54 {
+  fill: #FBA5A3;
+}
+svg .st55 {
+  opacity: 0.15;
+  fill: #545657;
+}
+svg .st56 {
+  fill: url(#SVGID_26_);
+}
+svg .st57 {
+  fill: #F2959B;
+}
+svg .st58 {
+  fill: url(#SVGID_27_);
+}
+svg .st59 {
+  fill: url(#SVGID_28_);
+}
+svg .st60 {
+  opacity: 0.4;
+  fill: #572668;
+}
+svg .st61 {
+  fill: #8B225C;
+}
+svg .st62 {
+  fill: #572668;
+}
+svg .st63 {
+  fill: #5F2566;
+}
+svg .st64 {
+  fill: #F1939A;
+}
+svg .clock {
+  transform-origin: 409px 270px;
+  animation: rotate 24s linear infinite;
+}
+svg .clock-shadow {
+  transform-origin: 409px 270px;
+  animation: rotate 60s linear infinite;
+}
+svg .code-letter_o,
+svg .code-letter_d,
+svg .code-letter_e {
+  animation-duration: 4s;
+}
+svg .flag {
+  transform-origin: 650px 217px;
+  animation: bounceBFt2 2s ease-in-out infinite;
+}
+svg .rocket {
+  transform-origin: 105px 500px;
+}
+svg .rocket_1 {
+  animation: fickle 6s ease-in-out infinite;
+}
+svg .rocket_2 {
+  animation: fickle 3s ease-in-out infinite;
+}
+svg .mag-glass {
+  transform-origin: 903px 536px;
+  animation: bounceBFt2 3s ease-in-out infinite;
+}
+svg .design-part {
+  transform-origin: 814.4px 839px;
+  animation: rotate 12s linear infinite;
+}
+svg .testing-part {
+  transform-origin: 200px 835px;
+  animation: bounceBFt2 3s ease-in-out infinite;
+}
+svg .step1,
+svg .step2,
+svg .step3,
+svg .step4,
+svg .step5,
+svg .step6,
+svg .step7 {
+  transform-origin: 519px 496px;
+  animation: pop 4s linear infinite;
+}
+svg .step2 {
+  animation-delay: 0.25s;
+}
+svg .step3 {
+  animation-delay: 0.5s;
+}
+svg .step4 {
+  animation-delay: 0.75s;
+}
+svg .step5 {
+  animation-delay: 1s;
+}
+svg .step6 {
+  animation-delay: 1.25s;
+}
+svg .step7 {
+  animation-delay: 1.5s;
+}
+
+.code-letter_o {
+  animation: typingO 3s linear infinite;
+}
+.code-letter_d {
+  animation: typingD 3s linear infinite;
+}
+.code-letter_e {
+  animation: typingE 3s linear infinite;
+}
+@keyframes typingE {
+  20.1%, 80% {
+    fill: transparent;
+  }
+  20%, 80.1% {
+    fill: #fff;
+  }
+}
+@keyframes typingD {
+  30.1%, 70% {
+    fill: transparent;
+  }
+  30%, 70.1% {
+    fill: #fff;
+  }
+}
+@keyframes typingO {
+  40.1%, 60% {
+    fill: transparent;
+  }
+  40%, 60.1% {
+    fill: #fff;
+  }
+}
+
+@keyframes pop {
+  0%, 12%, 100% {
+    transform: scale(1);
+  }
+  6% {
+    transform: scale(1.01);
+  }
+}
+@keyframes fickle {
+  0%, 50%, 100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  25%, 75% {
+    transform: scale(0.9, 0.9);
+    opacity: 0.5;
+  }
+}
+@keyframes bounceBFt2 {
+  0%, 100% {
+    transform: rotate(4.6deg);
+  }
+  50% {
+    transform: rotate(-4.6deg);
+  }
+}
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
